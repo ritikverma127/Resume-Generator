@@ -1,0 +1,132 @@
+.ciclecolor1{
+    border-radius: 17px;
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    
+}
+.ciclecolor2{
+    border-radius: 17px;
+    height: 20px;
+    width: 20px;
+    background-color: green;
+    
+}
+.ciclecolor3{
+    border-radius: 17px;
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+    
+}
+.ciclecolor4{
+    border-radius: 17px;
+    height: 20px;
+    width: 20px;
+    background-color: yellow;
+    
+}
+.ciclecolor5{
+    border-radius: 17px;
+    height: 20px;
+    width: 20px;
+    background-color: pink;
+    
+}
+.ciclecolor6{
+    border-radius: 17px;
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    
+}
+.ciclecolor7{
+    border-radius: 17px;
+    height: 20px;
+    width: 20px;
+    background-color: purple;
+    
+}
+.ciclecolor8{
+    border-radius: 17px;
+    height: 20px;
+    width: 20px;
+    background-color: orange;
+    
+}
+.ciclecolor9{
+    border-radius: 17px;
+    height: 20px;
+    width: 20px;
+    background-color: brown;
+    
+}
+.button50{
+    background-color: white;
+    border:none;
+    height: 31px;
+    width: 51px;
+}
+.mainborder{
+    margin-left: 25px;
+    margin-top: 18px;
+    padding-left: 16px;
+    /* background-color: yellow; */
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 6px 7px 5px rgb(197 153 218 / 50%);
+    height: 150px;
+    width: 201px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+
+}
+.h2{
+   font-size: 19px; 
+}
+.backgroundcolor{
+    background-color: black;
+    height: 78px;
+    width: 89px;
+}
+/* Add this to your CSS file to handle positioning if needed */
+.theme button:hover + .themeColorComponent {
+    display: block;
+  }
+  
+  /* Example for positioning the ThemeColor component */
+  .themeColorComponent {
+    position: absolute;
+    top: 100%; /* Adjust based on your layout */
+    left: 0;
+    display: none; /* Initially hidden */
+    z-index: 1000; /* Ensure it's on top */
+  }
+  /* Example CSS for fixed form */
+.form-container {
+    position: fixed; /* Fix the form to a position */
+    top: 50px; /* Adjust based on your layout */
+    right: 50px; /* Adjust based on your layout */
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 6px 7px 5px rgba(196, 78, 255, 0.5);
+    border-radius: 20px;
+    padding: 20px 30px;
+    background-color: #fff;
+    z-index: 100; /* Ensure it's on top */
+  }
+  
+  /* Position the theme color component */
+  .theme-color-container {
+    position: absolute;
+    top: 50px; /* Adjust based on your layout */
+    left: 50px; /* Adjust based on your layout */
+    z-index: 200; /* Ensure it's on top of the form */
+  }
+  
+  /* Hide the theme color component by default */
+  .theme-color-container.hidden {
+    display: none;
+  }
+  

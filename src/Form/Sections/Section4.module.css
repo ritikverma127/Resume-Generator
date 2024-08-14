@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flexconcept {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 54vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 669px; /* Maximum width for larger screens */
+    margin: 82px 17px 0 17px; /* Margin at the top and sides */
+    box-shadow: 0 6px 7px 5px rgba(196, 78, 255, 0.5);
+    border-radius: 20px;
+    padding: 20px; /* Padding inside the container */
+    box-sizing: border-box; /* Include padding in width calculations */
+}
+
+.title {
+    font-size: 37px;
+    margin-left: 26px;
+    color: #a837ff;
+}
+
+.subtitle {
+    font-size: 20px;
+    margin-left: 23px;
+}
+
+.summaryInput {
+    width: calc(100% - 32px); /* Adjust to fit within the container */
+    padding: 10px 16px;
+    border: 2px solid #c44eff;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 16px 0; /* Adjust margin for spacing */
+}
+.generateButton {
+    background-color: #c44eff;
+    border: 2px solid #c44eff;
+    padding: 12px 24px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.generateButton:hover {
+    background-color: #a837ff;
+}
+
+.generateButton1 {
+    background-color: #c44eff;
+    border: 2px solid #c44eff;
+    padding: 12px 24px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    margin-left: 12px;
+}
+
+.generateButton1:hover {
+    background-color: #a837ff;
+}
+.span{
+    font-weight: bold;
+    font-size: 18px;
+}

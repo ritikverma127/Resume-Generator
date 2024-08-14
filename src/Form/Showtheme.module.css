@@ -1,0 +1,13 @@
+/* ShowTheme.module.css */
+
+.themeColorContainer {
+    position: absolute;
+    top: 50px; /* Adjust based on your layout */
+    left: 50px; /* Adjust based on your layout */
+    z-index: 200; /* Ensure it's on top of the form */
+  }
+  
+  .hidden {
+    display: none;
+  }
+  

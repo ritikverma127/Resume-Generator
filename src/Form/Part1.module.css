@@ -1,0 +1,100 @@
+/* Part1.module.css */
+/* ********************************************** */
+@keyframes rotate360 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Apply the animation on hover */
+.icon:hover {
+  animation: rotate360 0.5s linear;
+}
+/* ********************************************** */
+.navbarlike {
+    display: flex;
+    align-items: center;
+    /* background-color: #f0f0f0; */
+    padding: 10px 20px;
+    box-shadow: 0 6px 7px 0px rgba(0, 0, 0, 0.2);
+}
+  
+  .smalldivhouse img {
+    width: 40px; /* Example size for the image */
+    height: 40px;
+    object-fit: cover;
+  }
+  
+  .theme {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #333;
+    margin-left: 20px; /* Adjust as needed for spacing */
+  }
+  
+  .button1 {
+    display: flex;
+    align-items: center; /* Ensures the items are vertically centered */
+    background-color: #c44eff; /* Example background color */
+    border: 2px solid #c44eff; /* Example border matching your preference */
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-left: auto; /* Pushes the button to the right */
+  }
+  
+  .button1:hover {
+    background-color: #a332d8; /* Darker shade for hover effect */
+  }
+  .button22:hover {
+    background-color: #a332d8; /* Darker shade for hover effect */
+  }
+  .button22{
+    display: flex;
+    align-items: center; /* Ensures the items are vertically centered */
+    background-color: #c44eff; /* Example background color */
+    border: 2px solid #c44eff; /* Example border matching your preference */
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-left: auto; /* Pushes the button to the right */
+  }
+  .button12{
+    display: flex;
+    background-color: #c44eff; /* Example background color */
+    border: 2px solid #c44eff; /* Example border matching your preference */
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-left:  1101px;; 
+  }
+  @media (max-width: 768px) {
+    .button1, .button22, .button12 {
+      margin-left: 0; /* Reset margin for small screens */
+      margin-top: 10px; /* Add some space between buttons if wrapped */
+    }
+
+    .smalldivhouse img {
+      width: 40px; /* Example size for the image */
+      height: 40px;
+      object-fit: cover;
+      margin-left: 2px;
+    }
+
+    .navbarlike {
+      justify-content: space-around;
+    }
+  }
